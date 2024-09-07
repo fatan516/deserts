@@ -1,0 +1,157 @@
+
+.container{
+    width: 80%;
+    margin: 4rem auto;
+
+    display: flex;
+    gap: 5%;
+}
+/*****************************cart****************************/
+.container .cart{
+    width: 25%;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+   max-height:350px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+  
+}
+
+.container .cart .header-cart{
+    color: var(--rojo);
+    font-family:'RedHatText-VariableFont' ;
+    font-size: 20px;
+    margin: 7%;
+}
+
+.container .cart .img-cart{
+    width: 40%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.container .cart .desc-cart{
+    font-family:'RedHatText-SemiBold' ;
+    color: var(--rosa5);
+    text-align: center;
+    padding-bottom: 5vh;
+    font-size:14px ;
+}
+
+/*****************************desserts****************************/
+.container .desserts{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.container .desserts .dessert-heading{
+    font-family:'RedHatText-VariableFont' ;
+}
+
+
+.container .desserts .dessert-boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+.container .desserts .dessert-boxes .row{
+    display: flex;
+    gap: 20px;
+}
+
+.container .desserts .dessert-boxes .row .box .box-img .dessert-img{
+    width: 100%;
+    
+}
+.container .desserts .dessert-boxes .row .box .box-img .dessert-img img{
+    border-radius: 8px;
+}
+.container .desserts .dessert-boxes .row .box .box-img{
+    position: relative;
+}
+
+.container .desserts .dessert-boxes .row .box .box-img .shop{
+    display: flex;
+    gap: 1vw;
+    border-radius:35px ;
+    padding: 10px 25px;
+    border: 1px solid var(--rosa4);
+    background-color: white;
+    position: absolute;
+    z-index: 20;
+    left: calc(50% - 78px);
+    bottom: -21px;
+}
+
+.container .desserts .dessert-boxes .row .box{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.container .desserts .dessert-boxes .row .box .box-img .shop .add{
+    font-family:'RedHatText-SemiBold' ;
+}
+
+.container .desserts .dessert-boxes .row .box .bott{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4vh;
+}
+.container .desserts .dessert-boxes .row .box .bott div:first-child{
+    font-family:'RedHatText-Regular' ;
+    color: var( --rosa4);
+    font-weight: 400;
+}
+
+.container .desserts .dessert-boxes .row .box .bott:nth-child(even){
+    color:var(--rosa9);
+    font-family:'RedHatText-VariableFont' ;
+    font-weight: 600;
+}
+
+.container .desserts .dessert-boxes .row .box .bott div:last-child{
+    color: var(--rojo);
+}
+
+
+/* ...........................responsive..................................... */
+
+@media(max-width:768px){
+    .cart{
+        
+        margin: 0 auto;
+        min-width: 70%
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    .row{
+      
+        flex-direction: column;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

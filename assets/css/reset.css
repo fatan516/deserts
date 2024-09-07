@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --rojo: hsl(14, 86%, 42%);
+    --verde: hsl(159, 69%, 38%);
+    --rosa50: hsl(20, 50%, 98%);
+    --rosa1: hsl(13, 31%, 94%);
+    --rosa3: hsl(14, 25%, 72%);
+    --rosa4: hsl(7, 20%, 60%);
+    --rosa5: hsl(12, 20%, 44%);
+    --rosa9: hsl(14, 65%, 9%);
+}
+
+body{
+    background-color: var(--rosa50);
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+
+}
+ul{
+    list-style-type: none;
+}
+
+@font-face {
+    font-family:'RedHatText-Bold' ;
+    src: url('/public/fonts/RedHatText-Bold.ttf');
+}
+@font-face {
+    font-family:'RedHatText-Italic' ;
+    src: url('/public/fonts/RedHatText-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family:'RedHatText-Regular' ;
+    src: url(/public/fonts/RedHatText-Regular.ttf);
+}
+@font-face {
+    font-family:'RedHatText-SemiBold' ;
+    src: url('/public/fonts/RedHatText-SemiBold.ttf');
+}
+@font-face {
+    font-family:'RedHatText-VariableFont' ;
+    src: url('/public/fonts/RedHatText-VariableFont_wght.ttf');
+}
